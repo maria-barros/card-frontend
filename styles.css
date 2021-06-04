@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2? family = Inter: wght @ 400; 700 & family = Lexend + Deca & display = swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    padding: 0px 200px;
+}
+
+body {
+    margin: 0;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    height: 420px;
+}
+
+#card-body {
+    background-color: hsl(244, 38%, 16%);
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 50px;
+    border-bottom-left-radius: 0.50rem;
+    border-top-left-radius: 0.50rem;
+}
+
+#card-image {
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    background-image: url('images/image-header-desktop.jpg');
+    border-bottom-right-radius: 0.50rem;
+    border-top-right-radius: 0.50rem;
+    box-shadow: inset 2000px 0 0 0 rgba(120, 23, 132, 0.58);
+}
+
+.card-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: #9fa0a0;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    padding-right: 50px;
+    line-height: 22px;
+}
+
+#card-insights{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.insights {
+    padding-right: 10px;
+}
+
+.insight-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.insight-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    line-height: 15px;
+    color: #9fa0a0;
+    letter-spacing: 1px;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+
